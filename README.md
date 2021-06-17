@@ -31,7 +31,8 @@ Public Function QSOptionSymbol(root, country, expiry, optionType, strike)
     expiryStr = Format(expiry, "yymmdd")
     Symbol = "@" & part1 & expiryStr & Trim(pc) & strike_str & ":" & country
     QSOptionSymbol = Symbol
-End Function```
+End Function
+```
 
 
 will produce an option symbol required by Quotestream Professional RTD.  The expiry should be a date in a spreadhseet cel.
