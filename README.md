@@ -1,5 +1,5 @@
 # qs-excel
-Functions to help build option symbols and  other tools for RTD with Quotestream Professional.
+Functions to help build option symbols and  other tools for RTD with [Quotestream Professional](http://quotestreampro.com/).
 
 # Overview
 The file  quotestream.xlam is a VBA add-in for excel.   This provides functions including:
