@@ -11,7 +11,7 @@ a total nuisance to produce that format in an excel formula.
 
 
 # Installation
-The VBA Add in isin the file 'qs-excel.xlam".  
+The VBA Add in isin the file 'quotestream.xlam".  
 
 Read aout [how to install VBA Add Ins for excel](https://www.automateexcel.com/vba/install-add-in).  
 
