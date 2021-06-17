@@ -23,15 +23,15 @@ In an excel cel:  '==qs_rtd_server()'  will return the constant string "quotestr
 
 
 The function 
-`Public Function QSOptionSymbol(root, country, expiry, optionType, strike)
+{Public Function QSOptionSymbol(root, country, expiry, optionType, strike)
     part1 = root + Space(6 - Len(root))
     pc = UCase(Trim(optionType))
     strike_str = Format(Str(strike * 1000), "00000000")
     expiryStr = Format(expiry, "yymmdd")
     Symbol = "@" & part1 & expiryStr & Trim(pc) & strike_str & ":" & country
     QSOptionSymbol = Symbol
-End Function
-`
+End Function}
+
 
 will produce an option symbol required by Quotestream Professional RTD.  The expiry should be a date in a spreadhseet cel.
 
@@ -45,5 +45,5 @@ Here is a sample to get the last trade for an option.
 
 # Quotestream RTD Info
 
-Please review the [Quotestream RTD Documentation ] (http://www.quotestreampro.com/RTDdocs/).
+Please review the [Quotestream RTD Documentation ](http://www.quotestreampro.com/RTDdocs/).
 
